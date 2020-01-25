@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ds_cult_approval" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ds_cult_approval" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Activities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Activity_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Activity_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Categories" type="xs:string" minOccurs="0" />
+              <xs:element name="Details" type="xs:string" minOccurs="0" />
+              <xs:element name="Place" type="xs:string" minOccurs="0" />
+              <xs:element name="Time_and_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="status" type="xs:string" minOccurs="0" />
+              <xs:element name="username" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
